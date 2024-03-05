@@ -1,0 +1,9 @@
+@echo off
+echo 正在调用called.bat...
+call called.bat
+echo called.bat调用完毕!
+echo 现在开始调用"XX"标号后的语句...
+call :xx
+
+:xx
+echo 在XX标号后的命令...
